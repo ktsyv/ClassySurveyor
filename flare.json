@@ -1,0 +1,237 @@
+{
+	"name": "SHIP TYPES (in progress)",
+	"children": [
+		{
+   			"name": "OCEAN GOING",
+			"children": [
+    			{
+    				"name": "CONTAINER SHIP",
+    				"children": [
+    					{"name":"PANAMAX"},
+    					{"name":"POST-PANAMAX"},
+    					{"name":"SUEZMAX"},
+    					{"name":"POST-SUEZMAX"},
+    					{"name":"POST-MALACCAMAX"}
+    				]
+    			},
+    			{
+    				"name": "TANKER",
+    				"children": [
+    					{"name":"CRUDE OIL"},
+    					{"name":"PRODUCT"},
+    					{"name":"CHEMICAL"},
+    					{"name":"LNG"},
+    					{"name":"ITB"}
+    				]
+    			},
+    			{
+    				"name": "BULK CARRIER",
+    				"children": [
+    					{"name":"GEARED"},
+    					{"name":"COMBINED"},
+    					{"name":"GEARLESS"},
+    					{"name":"SELF-DISCHARGER"},
+    					{"name":"LAKER"},
+    					{"name":"BIBO"}
+    				]
+    			},
+    			{
+    				"name": "SPECIALTY",
+    				"children": [
+    					{"name":"CABLE LAYER"},
+    					{"name":"HEAVY LIFT"},
+    					{"name":"FISH PROCESSOR"},
+    					{
+    						"name":"DREDGER",
+    						"children": [
+    							{"name":"CUTTERHEAD"},
+    							{"name":"DUSTPAN"},
+    							{"name":"HOPPER"},
+    							{"name":"SIDECASTER"},
+    							{"name":"SPECIAL PURPOSE"},
+    							{"name":"BUCKET"},
+    							{"name":"DIPPER"}
+    						]
+    					},
+    					{"name":"ICEBREAKER"},
+    					{
+    						"name":"RO-RO",
+    						"children": [
+    							{"name":"ROPAX"},
+    							{"name":"CONRO"},
+    							{"name":"ROLO"}
+    						]
+    					},
+    					{"name":"BREAK BULK"},
+    					{"name":"LASH"},
+    					{"name":"REEFER"},
+    					{"name":"LIVESTOCK"}
+    				]
+    			}
+    		]
+    				
+    	},
+    	{
+    		"name":"FISHING",
+    		"children": [
+    			{"name":"TRAWLER"},
+    			{"name":"SEINER"},
+    			{"name":"DRIFTER"},
+    			{"name":"LONGLINER"},
+    			{"name":"CRABBER"}
+    		]
+    	},
+    	{
+    		"name":"NEAR COASTAL",
+    		"children": [
+    			{"name":"RIVER BARGE"},
+    			{"name":"RIVER TUG"},
+    			{"name":"HARBOUR TUG"},
+    			{"name":"OCEAN TUG"}
+    		]
+    	},
+    	{
+    		"name":"PASSENGER",
+    		"children": [
+    			{
+    				"name":"CRUISE",
+    				"children": [
+    					{
+    						"name":"SPECIALTY",
+    						"children": [
+    							{"name":"ARCTIC"},
+    							{"name":"ANTARCTIC"}
+    						]
+    					},
+    					{"name":"LARGE"},
+    					{"name":"SMALL"}
+    				]
+    			},
+    			{
+    				"name":"FERRY",
+    				"children": [
+    					{"name":"HIGH SPEED"}
+    				]
+    			}
+    		]
+    	},
+    	{
+   			"name": "OFFSHORE",
+			"children": [
+    			{
+    				"name": "EXPLORATION",
+    				"children": [
+    					{"name":"DRILLSHIP"},
+    					{"name":"SEMI-SUBMERSIBLE"},
+    					{"name":"JACK-UP"},
+    					{"name":"BARGE"},
+    					{"name":"PLATFORM"},
+    					{"name":"TENDER"}
+    				]
+    			},
+    			{
+    				"name": "SUPPORT",
+    				"children": [
+    					{"name":"WORKBOAT"},
+    					{"name":"SUPPLY BOAT"},
+    					{"name":"ANCHOR HANDLING"},
+    					{"name":"SEISMIC"},
+    					{"name":"FLOTEL"},
+    					{"name":"WELL INTERVENTION"}
+    				]
+    			},
+    			{
+    				"name": "PRODUCTION",
+    				"children": [
+    					{"name":"PLATFORM"},
+    					{"name":"TLP"},
+    					{"name":"FPSO"},
+    					{"name":"SPAR"},
+    					{"name":"SHUTTLE TANKERS"}
+    				]
+    			},
+    			{
+    				"name": "CONSTRUCTION",
+    				"children": [
+    					{"name":"PIPE LAYER"},
+    					{"name":"DIVING"},
+    					{"name":"CRANE VESSEL"}
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "GOVERNMENT/ACADEMIC",
+    		"children": [
+    			{
+    				"name": "RESEARCH VESSEL",
+    				"children": [
+    					{"name": "HYDROGRAPHIC"},
+    					{"name": "OCEANOGRAPHIC"},
+    					{"name": "FISHERIES"},
+    					{"name": "NAVAL"},
+    					{"name": "POLAR"}
+    				]
+    			},
+    			{
+    				"name": "NON-PROFIT",
+    				"children": [
+    					{"name": "HOSPITAL SHIP"},
+    					{"name": "TRAINING SHIP"},
+    					{"name": "ACTIVIST"}
+    				]
+    			},
+    			{
+    				"name": "MILITARY",
+    				"children": [
+    					{
+    						"name": "NAVY",
+    						"children": [
+    							{
+    								"name":"CARRIER",
+    								"children":[
+    									{"name":"AIRCRAFT"},
+    									{"name":"HELICOPTER"}
+    								]
+    							},
+    							{"name":"COMMAND"},
+    							{"name":"AMPHIBIOUS ASSAULT"},
+    							{
+    								"name":"SUBMARINE",
+    								"children":[
+    									{"name":"ATTACK"},
+    									{"name":"BALLISTIC MISSILE"},
+    									{"name":"RESCUE"}
+    								]
+    							},
+    							{"name":"SUB TENDER"},
+    							{"name":"MINE CLEARANCE"},
+    							{
+    								"name":"SURFACE WARFARE",
+    								"children":[
+    									{"name":"BATTLESHIP"},
+    									{"name":"FRIGATE"},
+    									{"name":"PATROL COMBATANT"},
+    									{"name":"CUTTER"}
+    								]
+    							}
+    						]
+    					},
+    					{
+    						"name": "COAST GUARD",
+    						"children": [
+    							{"name":"LIGHTSHIP"},
+    							{"name":"BUOY TENDER"},
+    							{"name":"CUTTER"},
+    							{"name":"ICEBREAKER"}
+    						]
+    					},
+    					{"name": "ARMY"},
+    					{"name": "NOAA"}
+    				]
+    			},
+    			{"name":"FIREBOAT"}
+    		]
+    	}
+    ]
+}
